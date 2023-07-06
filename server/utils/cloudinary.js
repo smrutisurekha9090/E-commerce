@@ -39,4 +39,4 @@ const cloudinaryDeleteImg = async (fileToDelete) => {
   });
 };
 
-module.exports = { cloudinaryUploadImg, cloudinaryDeleteImg };
+module.exports = {  cloudinaryUploadImg  , cloudinaryDeleteImg };

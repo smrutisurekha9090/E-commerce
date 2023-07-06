@@ -183,6 +183,7 @@ const getallUser = asyncHandler(async (req, res) => {
 
 // Get a single user
 const getaUser = asyncHandler(async (req, res) => {
+  console.log(req.params);
   const { id } = req.params;
   validateMongoDbId(id);
   try {

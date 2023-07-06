@@ -53,10 +53,14 @@ app.use("/api/upload", uploadRouter);
 app.use(notFound);
 app.use(errorHandler);
 
+
+
 //Server
 app.listen(PORT, () => {
   console.log(`Server is running  at PORT ${PORT}`);
 });
+
+
 
 //Unhandled Promise Rejection
 process.on("unhandledRejection", (err) => {
